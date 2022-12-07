@@ -1,0 +1,36 @@
+.first-block {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 117, 186);
+  }
+  
+  nav {
+    display: flex;
+    height: 70px;
+  }
+  nav ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 24px;
+  }
+  
+  nav li {
+    margin-left: 15px;
+  }
+  a{
+    color: blue;
+  }
+  li a{
+    color: white;
+  }
+  ol li a{
+    color: blue;
+  }
+  section{
+    size: 50%;
+  }
+  h{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 100;
+  }
