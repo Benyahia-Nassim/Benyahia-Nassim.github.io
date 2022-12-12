@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *::before,*::after{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(161, 160, 160);
+    height: 7rem;
+  }
+
+  #login{
+    background-image: url("../assets/motif-barre.jpg");
+    background-size: 100%;
+    color: white;
+  }
+ 
+  #myVideo{
+      height: 60vh;
+      width: 100vw;
+      object-fit: cover;
+  }
+  .nav-barre {
+    overflow: hidden;
+    border-radius: 10px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  #logotexte{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+  }
+  #logo{
+    width: 100px;
+    padding-left: 15px;
+  }
+  
+  .nav-barre a {
+    float: right;
+    color: rgb(13, 138, 240);
+    text-align: center;
+    padding: 12px;
+    padding-top: 30px;
+    font-size: 2rem;
+    line-height: 25px;
+    border-radius: 4px;
+    transition: all 1s;
+  }
+  .nav-barre a:hover {
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 10px;
+    border: black 2px solid;
+    font-weight: bold;
+    color: white;
+    background-image: url("../assets/motif-barre.jpg");
+    background-size: 100%;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(51, 48, 87)20%, rgb(80, 68, 101) 50%, rgb(134, 125, 205) 75%, rgb(80, 79, 83) 25%);  }
+
+  section h2{
+    background: rgb(161, 160, 160);
+  }
+  h2 {
+    text-align: center;
+    font-size: 280%;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+.content{
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 200%;
+}
+.content h3{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(157, 196, 229);
+    margin: 0;
+}
+.content article {
+    padding: 10px;
+    margin: 10px;
+  }
+
+.content img{
+  height: 80vh;
+  width: 30vw;
+  object-fit: cover;
+  margin-top: 3rem;
+}
+
+figcaption{
+  text-align: center;
+}
+.content a {
+  color: rgb(95, 174, 239);
+}
+
+footer {
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(161, 160, 160);
+  height: 7rem;
+}
+
+
+  

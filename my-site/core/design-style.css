@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,*::after{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edeeee;
+  height: 7rem;
+}
+.nav-barre {
+  overflow: hidden;
+  border-radius: 10px;
+  font-family:'Times New Roman', Times, serif
+}
+#logotexte{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 4rem;
+}
+#logo{
+  width: 100px;
+  padding-left: 15px;
+}
+
+.nav-barre a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  padding-top: 30px;
+  text-decoration:solid;
+  font-size: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+  transition: all 1s;
+}
+.nav-barre a:hover {
+  width: 200px;
+  padding-left: 30px;
+  padding-top: 10px;
+  border: black 2px solid;
+  font-weight: bold;
+  color: black;
+}

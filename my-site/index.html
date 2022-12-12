@@ -1,26 +1,105 @@
 <!doctype html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="language" content="fr">
-  <meta name="description" content="1er template complet"/>
-  <meta name="subject" content="creation d'un premier template complet from scratch">
-  <meta name="og:email" content="benyahianassim56@gmail.com"/>
-  <meta name="og:country-name" content="France"/>
-  <meta name="twitter.title" content="my-site">
-  <title>My site</title>
-  <link rel="stylesheet" href="core/style.css">
+   <meta charset="utf-8">
+   <meta name="language" content="fr">
+   <meta name="description" content="1er template complet" />
+   <meta name="subject" content="creation d'un premier template complet from scratch">
+   <meta name="og:email" content="benyahianassim56@gmail.com" />
+   <meta name="og:country-name" content="France" />
+   <meta name="twitter.title" content="my-site">
+   <title>My site</title>
+   <link rel="icon" type="image/x-icon" href="assets/agence-web-netscript.png">
+   <link rel="stylesheet" href="core/my-site-style.css">
+   <script src="core/my-site.js"></script>
 </head>
+
 <body>
-  Salut Yoann ,<br>
-  je vais faire un véritable site et from scratch biensure ;)<br>
-  Désolé je veux pas te faire perdre ton temps mais je sais que tu vois tout<br>
-  donc autant te laisser un petit mot...
-  bon courage , Professor 
-<figure>
-    <video controls>
-      <source src="assets/Emoji-cry.mp4" type=video/mp4>
-    </video>
-        <figcaption>Désolé je suis trop nul</figcaption>
-</figure>
+   <header>
+      <img src="assets/camera-vr-winnievinzence.png" alt="Logo casque réalité augmentée" id="logo" />
+      <span id="logotexte">Web Agence</span>
+      <nav class="nav-barre">
+         <a href="design.html" target="_blank">Design</a>
+         <a href="devellopement.html" target="_blank">Devellopement</a>
+         <a href="publication.html" target="_blank">Publication</a>
+         <a href="nos-offres.html" target="_blank">Nos offres</a>
+         <button>
+            <a href="formulaire-my-site.html" id="login">Login</a>
+         </button>
+      </nav>
+   </header>
+   <video width="320" height="240" autoplay controls muted loop id="myVideo">
+      <source src="assets/agence-web1.mp4" type=video/mp4>
+   </video>
+   <section>
+      <h2>Notre agence vous accompagnes dans votre transition numérique</h2>
+      <div class="content">
+         <article>
+            <h3><em><u>Présentation</em></u></h3><br>
+            <p>Appsolute innove sur le plan stratégique et opérationnel afin de vous accompagner dans l’orchestration de
+               votre transformation numérique.
+               Pour cela, nous vous proposons une phase de suivi efficace en accord avec vos projets de développements
+               web & mobile.
+               Nous nous basons sur une stack technique solide avec des frameworks robustes et flexibles.
+            </p>
+            <figure>
+               <img src="assets/agence-web2.jpg">
+               <figcaption><a href="formulaire-my-site.html">Accédez au Formulaire</a></figcaption>
+            </figure>
+         </article>
+         <article>
+            <h3><em><u>Idéation et prototypage</u></em></h3><br>
+            <p>Via des ateliers UX/UI, nous challengeons les besoins et les usages de vos utilisateurs afin de vous
+               proposer des designs web & mobile percutants.
+               En plus de cela, chez Appsolute nos équipes créatives veillent activement pour mettre en lumière les
+               dernières tendances graphiques sur vos plateformes digitales.
+            </p>
+            <figure>
+               <img src="assets/design1.jpg">
+               <figcaption>
+                  <a href="design.html" target="_blank">Decouvrez nos Design</a>
+                  <br>
+                  <br>
+                  <a href="devellopement.html" target="_blank">Passez au Devellopement</a>
+               </figcaption>
+            </figure>
+         </article>
+         <article>
+            <h3><em><u>Accompagnement</u></em></h3><br>
+            <p>Le déploiement d'une application n'est que sa naissance, qui lui promet une longue vie à condition d'être
+               bien encadrée.
+               Il est capital pour assurer le succès d'une application d'être vigilant en terme de maintenance
+               corrective, pour assurer la sécurité et la compatibilité avec les nouvelles versions des systèmes,
+               mais également d'enrichir avec de nouvelles fonctionnalités.
+            </p>
+            <figure>
+               <img src="assets/dev2.jpg">
+               <figcaption><a href="publication.html" target="_blank">Accompagnement et Publication</a></figcaption>
+            </figure>
+         </article>
+      </div>
+      <!--les balise em et string pour validé module css sur html-->
+   </section>
+ <footer class="secondary-block">
+      <div class="footer-content">
+         <div class="links">
+            <ul>
+               <li><a href="design.html" target="_blank">Design</a></li> 
+               <li><a href="devellopement.html" target="_blank">Devellopement</a></li> 
+               <li><a href="publication.html" target="_blank">Publication</a></li> 
+               <li><a href="nos-offres.html" target="_blank">Nos offres</a></li> 
+            </ul>
+         </div>
+         <div class="reseau">
+            <ol>
+               <li><a href="https://www.linkedin.com/home">LinkedIn</a></li>
+               <li><a href="https://twitter.com/">Twitter</a></li>
+               <li><a href="https://www.facebook.com/">Facebook</li>
+            </ol>
+         </div>
+         <img src="assets/camera-vr-winnievinzence.png" alt="Logo casque réalité augmentée" id="logo" />
+      </div>
+ </footer>
 </body>
+
 </html>
