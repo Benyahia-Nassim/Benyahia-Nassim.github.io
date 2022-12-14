@@ -59,11 +59,15 @@
     width: 100%;
     object-fit: cover;
   }
+  body{
+    background: rgb(112, 110, 110);
+  }
   
   section{
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, rgb(51, 48, 87)20%, rgb(80, 68, 101) 50%, rgb(134, 125, 205) 75%, rgb(80, 79, 83) 25%);  }
+    background: linear-gradient(to bottom, rgb(51, 48, 87)20%, rgb(80, 68, 101) 50%, rgb(134, 125, 205) 75%, rgb(80, 79, 83) 25%);  
+  }
 
   section h2{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -82,29 +86,196 @@
     font-size: 200%;
 }
 .content h3{
+    text-decoration: underline;
+    font-style: italic;
     text-align: center;
     font-size: 3rem;
     color: rgb(157, 196, 229);
     margin: 0;
 }
 .content article {
-    padding: 10px;
-    margin: 10px;
+    padding: 0px;
+    margin: 0px;
   }
 
 .content img{
   height: 80vh;
   width: 30vw;
   object-fit: cover;
-  margin-top: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.content p{
+  margin-bottom: 1rem;
 }
 
 figcaption{
   text-align: center;
+  margin-bottom: 2rem;
 }
 .content a {
   color: rgb(95, 174, 239);
+  padding-top: 10rem;
 }
+
+table{
+  border-collapse: collapse;
+  background: linear-gradient(to bottom, rgb(51, 48, 87)20%, rgb(80, 68, 101) 50%, rgb(134, 125, 205) 75%, rgb( 140, 120, 200) 25%);  
+  color: white;
+  margin-bottom: 1rem;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 10px;
+}
+.tableau {
+  border-collapse: collapse;
+  border: 10px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+caption{
+  font-size: larger;
+  color: rgb(157, 196, 229);
+  border: 1px solid rgb(157, 196, 229);;
+}
+
+.tableau2 {
+  table-layout: fixed;
+  background: linear-gradient(to bottom, rgb(51, 48, 87)20%, rgb(80, 68, 101) 50%, rgb(134, 125, 205) 75%, rgb( 140, 120, 200) 25%);  
+  color:white;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+.contactez-nous {
+  background: linear-gradient(to bottom, rgb(51, 48, 87)20%, rgb(80, 68, 101) 50%, rgb(134, 125, 205) 75%, rgb( 140, 120, 200) 25%); 
+  width: 60%;
+  border: 1px solid;
+  margin:1rem 0 3rem 17rem;
+  padding: 0 50px 0 50px;
+  border-radius: 15px;
+  font-size: 25px;
+  color: white;
+  }
+  
+  #nom , #email , #sujet , #message{
+    background-color: rgb(157, 196, 229)
+  }
+  .contactez-nous > h4 {
+  font-size: 3rem;
+  color: rgb(157, 196, 229)
+  }
+  
+  .contactez-nous > p {
+  font-weight: 300;
+  }
+  
+  form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 83px;
+  margin-top: 25px;
+  }
+  
+  form div > label {
+  margin-bottom: 7px;
+  font-weight: 600;
+  }
+  
+  form div > input, form div > select, form div > textarea {
+  color: rgb(157, 196, 229);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, "sans-serif";
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+  }
+  
+  form div > input, form div > select {
+  height: 50px;
+  padding-left: 10px;
+  }
+  
+  form div > select {
+  appearance: none;
+  background-size: 15px;
+  background-position: right 10px top 50%;
+  background-repeat: no-repeat;
+  }
+  
+  form div > textarea {
+  height: 195px;
+  padding: 15px 0px 0px 10px;
+  }
+  
+  form div > input::placeholder, form div > textarea::placeholder {
+  color: black;
+  }
+  
+  form div > select:invalid {
+    color: black; 
+   }
+  
+  form div > select option {
+  background: white;
+  color: #303030;
+  }
+  
+  form div:last-child {
+  align-items:center;
+  margin-top: 20px;
+  }
+  
+  form button {
+  width: 450px;
+  max-width: 500px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 28px;
+  color: rgb(157, 196, 229);
+  background-color: rgb(157, 196, 229);
+  border: rgba(48, 48, 48, 0.5) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  color: rgb(104, 101, 101);
+  }
+
+dt {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+dd {
+    font-size: 1rem;
+    margin-bottom: 1em;
+  }
 
 .secondary-block {
     display: flex;
@@ -112,7 +283,7 @@ figcaption{
     align-items: center;
     width: 100%;
     background: rgb(161, 160, 160);
-    height: 15rem;
+    height: 12rem;
   }
   
   .secondary-block ol{

@@ -8,9 +8,9 @@
    <meta name="og:email" content="benyahianassim56@gmail.com" />
    <meta name="og:country-name" content="France" />
    <meta name="twitter.title" content="my-site">
-   <title>Design My site</title>
+   <title>Login My site</title>
    <link rel="icon" type="image/x-icon" href="assets/agence-web-netscript.png">
-   <link rel="stylesheet" href="core/design-style.css">
+   <link rel="stylesheet" href="core/Login-style.css">
    <script src="core/my-site.js"></script>
 </head>
 
@@ -19,41 +19,55 @@
       <img src="assets/camera-vr-winnievinzence.png" alt="Logo casque réalité augmentée" id="logo" />
       <span id="logotexte">Web Agence</span>
       <nav class="nav-barre">
-        
          <a href="nos-offres.html" target="_blank">Nos offres</a>
+         <a href="design.html" target="_blank">Design</a>
          <a href="publication.html" target="_blank">Publication</a>
          <a href="devellopement.html" target="_blank">Devellopement</a>
-         <a href="index.html">Acceuil</a>
       </nav>
    </header>
-   <img src="assets/support2.jpg" alt="représentation different support numérique" id="first-image">
   <section>
     <h2>Notre agence vous accompagnes dans votre transition numérique</h2>
     <div class="content">
        <article>
-        <h3><em><u>Idéation et prototypage</u></em></h3><br>
-        <p>Via des ateliers UX/UI, nous challengeons les besoins et les usages de vos utilisateurs afin de vous
-           proposer des designs web & mobile percutants.
-           En plus de cela, chez Appsolute nos équipes créatives veillent activement pour mettre en lumière les
-           dernières tendances graphiques sur vos plateformes digitales.
-        </p>
-        <figure>
-           <img src="assets/design1.jpg"alt="représentation support numérique">
-           <figcaption>
-              <a href="devellopement.html" target="_blank">A present place au devellopement</a>
-           </figcaption>
-        </figure>
-     </article>
+        <h3><em><u>Connectez vous</u></em></h3><br>
+            <form class="Formulaire">  
+               <div class="formcontainer">
+                   <div class="container">
+                      <label for="uname"><strong>Nom</strong></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                      <label for="phonenumber"><strong>Numero de telephone</strong></label>
+                      <input type="text" placeholder="Enter phonenumber" name="Persons" required>
+                      <label for="mail"><strong>E-mail</strong></label>
+                      <input type="text" placeholder="Enter E-mail" name="mail" required>
+                   </div>
+            <button type="submit"><strong>VALIDER</strong></button>
+                   <div class="container2">
+                     <label style="padding-left:0px"> 
+                     <input type="checkbox" checked="checked" name="remember"> Recontacter moi
+                     </label>
+                   </div>
+               </div>
+              <img src="assets/support1.jpg" alt="représentation different support numérique">    
+            </form>
+       </article>
     </div>
- </section>
- <footer class="secondary-block">
+</section>
+
+<section class="iframe">
+   <div class="content-iframe">
+       <h4>Venez directement en agence nous retrouvez</h4>      
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5252.193186383405!2d2.4052052!3d48.8372962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67261b3ae9ec9%3A0xa07a7211ff73df9f!2s14%20Bd%20Soult%2C%2075012%20Paris!5e0!3m2!1sfr!2sfr!4v1670958177146!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+</section>
+ 
+<footer class="secondary-block">
   <div class="links">
      <ul>
         <li><a href="devellopement.html" target="_blank">Devellopement</a></li> 
         <br>
         <li><a href="publication.html" target="_blank">Publication</a></li> 
         <br>
-        <li><a href="nos-offres.html" target="_blank">Nos offres</a></li> 
+        <li><a href="design.html" target="_blank">Design</a></li> 
      </ul>
   </div>
   <div class="reseau">
