@@ -314,3 +314,23 @@ dd {
     width: 13rem;
     padding-right: 3rem;
   }
+
+  @media only screen and (max-width: 600px) {
+    .secondary-block .reseau a{
+    display: none;
+    }
+  .content{
+    display: block;
+  }
+ .contactez-nous{
+    margin: 0 3rem 0 6rem;
+    padding: 0;
+  }
+  header a{
+    display: none;
+  }
+  .content img{
+    width: 80vw;
+    margin-left: 3rem;
+  }
+  }

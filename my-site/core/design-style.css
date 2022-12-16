@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: rgb(161, 160, 160);
-  height: 7rem;
+  height: 15%;
 }
 
 .nav-barre {
@@ -31,6 +31,7 @@ header {
   #logo{
     width: 100px;
     padding-left: 15px;
+    margin: 7px 0px 8px 5px;
   }
   
   .nav-barre a {
@@ -39,7 +40,7 @@ header {
     text-align: center;
     padding: 12px;
     padding-top: 30px;
-    font-size: 2rem;
+    font-size: 200%;
     line-height: 25px;
     border-radius: 4px;
     transition: all 1s;
@@ -142,4 +143,12 @@ figcaption{
 #footer-logo{
   width: 13rem;
   padding-right: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .secondary-block .reseau a{
+  display: none;
+  }
+  #logotexte{
+    display: none;
 }

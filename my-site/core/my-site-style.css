@@ -23,11 +23,6 @@
     color: white;
   }
  
-  #myVideo{
-      height: 60vh;
-      width: 100%;
-      object-fit: cover;
-  }
   .nav-barre {
     overflow: hidden;
     border-radius: 10px;
@@ -40,9 +35,8 @@
     color: white;
   }
   #logo{
-    width: 8%;
+    width: 100px;
     padding-left: 15px;
-    margin: 7px 0px 8px 5px;
   }
   
   .nav-barre a {
@@ -67,9 +61,16 @@
     background-size: 100%;
   }
 
+  #myVideo{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
   section{
+    display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, rgb(51, 48, 87)20%, rgb(80, 68, 101) 50%, rgb(134, 125, 205) 75%, rgb(80, 79, 83) 25%);  
+    margin-bottom: 1px;
   }
   section h2{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -87,7 +88,7 @@
     justify-content: space-between;
     font-size: 200%;
     height: 150vh;
-    width: 100vw;
+   
 }
 .content h3{
     text-align: center;
@@ -131,7 +132,7 @@ figcaption{
   align-items: center;
   width: 100%;
   background: rgb(161, 160, 160);
-  height: 15rem;
+  height: 100%;
 }
 
 .secondary-block ol{
@@ -149,7 +150,7 @@ figcaption{
   color: rgb(63, 114, 210);
   text-align: center;
   font-size: 2rem;
-  /* margin-left: 32rem; */
+  margin-left: 32rem;
 }
 
 .reseau img{
@@ -164,10 +165,7 @@ figcaption{
 }
 
 @media only screen and (max-width: 600px) {
-  .nav-barre{
-    display: none;
-  } 
-  .content{
-    flex-direction: column;
+  .secondary-block .reseau a{
+  display: none;
   }
 }
