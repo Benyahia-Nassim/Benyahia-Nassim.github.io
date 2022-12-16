@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     background: rgb(161, 160, 160);
-    height: 7rem;
+    height: 15%;
   }
 
   #login{
@@ -25,7 +25,7 @@
  
   #myVideo{
       height: 60vh;
-      width: 100vw;
+      width: 100%;
       object-fit: cover;
   }
   .nav-barre {
@@ -40,8 +40,9 @@
     color: white;
   }
   #logo{
-    width: 100px;
+    width: 8%;
     padding-left: 15px;
+    margin: 7px 0px 8px 5px;
   }
   
   .nav-barre a {
@@ -67,10 +68,9 @@
   }
 
   section{
-    display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, rgb(51, 48, 87)20%, rgb(80, 68, 101) 50%, rgb(134, 125, 205) 75%, rgb(80, 79, 83) 25%);  }
-
+    background: linear-gradient(to bottom, rgb(51, 48, 87)20%, rgb(80, 68, 101) 50%, rgb(134, 125, 205) 75%, rgb(80, 79, 83) 25%);  
+  }
   section h2{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: rgb(161, 160, 160);
@@ -84,18 +84,26 @@
   }
 .content{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     font-size: 200%;
+    height: 150vh;
+    width: 100vw;
 }
 .content h3{
     text-align: center;
     font-size: 3rem;
     color: rgb(157, 196, 229);
     margin: 0;
+    width: 30vw;
 }
+
+.content article h3 em u{
+  width: 30%;
+}
+
 .content article {
-    padding: 10px;
-    margin: 10px;
+  margin-right: 5rem;
+    width: 30%;
   }
 
 .content img{
@@ -113,11 +121,10 @@ figcaption{
 }
 
 #myVideo2{
-  height: 80vh;
-  width: 100vw;
+  height: 60vh;
+  width: 100%;
   object-fit: cover;
 }
-
 .secondary-block {
   display: flex;
   justify-content:space-between;
@@ -142,7 +149,7 @@ figcaption{
   color: rgb(63, 114, 210);
   text-align: center;
   font-size: 2rem;
-  margin-left: 32rem;
+  /* margin-left: 32rem; */
 }
 
 .reseau img{
@@ -156,3 +163,11 @@ figcaption{
   padding-right: 3rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .nav-barre{
+    display: none;
+  } 
+  .content{
+    flex-direction: column;
+  }
+}
